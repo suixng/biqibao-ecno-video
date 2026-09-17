@@ -1,47 +1,47 @@
 ---
 name: bikini-bottom-econ-video-skill
-description: "Create character-driven economics, business, workplace, or consumer short videos in a Bikini Bottom style; use for scripts, element-based storyboards, asset plans, and restrained Remotion editing."
+description: "为比奇堡式财经、商业、职场与消费短视频提供文案、元素化分镜、素材计划与克制的 Remotion 剪辑工作流；也适用于替换为其他角色体系。"
 ---
 
 # 比奇堡财经视频工作流
 
-Turn an abstract economics, business, workplace, or consumer topic into a narration-led animated short video. The default world is Bikini Bottom, but the production method is character-system agnostic: the user may replace the cast and supplied assets with Rick and Morty, Tom and Jerry, Detective Conan, original characters, or another authorized universe.
+把抽象的财经、商业、职场或消费话题，做成由口播驱动的横版动画短视频。默认角色世界是比奇堡；但方法不绑定角色体系，用户可以替换为《瑞克和莫蒂》《猫和老鼠》《名侦探柯南》、原创角色或其他获得授权的世界观。
 
-## Start with scope
+## 先确认范围
 
-Read the user's existing script, subtitle file, storyboard, asset folder, and desired deliverable before creating anything. Confirm or infer:
+开始制作前，先读取用户已有的文案、字幕、分镜、素材文件夹和目标交付物，并确认或合理推断：
 
-- target duration, aspect ratio, and whether the result is a script, storyboard, asset plan, preview, or final video;
-- the selected character universe and the assets the user is authorized to use;
-- whether image generation, cutout processing, or video rendering has been authorized.
+- 时长、画幅，以及交付物是文案、分镜、资产计划、预览还是成片；
+- 角色体系及用户有权使用的素材；
+- 是否已授权生图、抠图或渲染。
 
-For public or commercial work, remind the user that a recognizable franchise, character art, audio, font, and reference video may need permission. Never include third-party character art, show footage, audio, or user material in this skill repository.
+若作品将公开或商用，提醒用户：可识别的 IP、角色美术、音频、字体和参考视频都可能需要授权。这个 Skill 仓库绝不收录第三方角色图、剧集画面、音频或用户私有素材。
 
-## Choose the stage
+## 按阶段执行
 
-1. **Script** — Read [script method](references/script-method.md). Begin with a concrete, emotional hook in the first two seconds; explain the mechanism through a character problem before naming it.
-2. **Storyboard** — Read [storyboard grammar](references/storyboard-grammar.md). Map each spoken phrase to an information group and an atomic visual asset plan.
-3. **Assets** — Read [asset pipeline and QA](references/assets-and-qa.md). Generate or source one role action or one independent prop at a time; do not use a multi-character collage as a substitute for editable assets.
-4. **Remotion edit** — Read [storyboard grammar](references/storyboard-grammar.md) and [asset pipeline and QA](references/assets-and-qa.md). Keep the background stable and make foreground entries follow narration timing, not a global transition preset.
-5. **Preflight** — Use the checklist in [asset pipeline and QA](references/assets-and-qa.md) before a full render. Make a short preview before a long render when timing or assets changed materially.
+1. **文案**：阅读[文案方法](references/script-method.md)。前两秒给出具体、有情绪的钩子；先用角色困境解释机制，再命名概念。
+2. **分镜**：阅读[分镜语法](references/storyboard-grammar.md)。把每个口播词组映射为信息组和原子化素材计划。
+3. **素材**：阅读[素材与验收](references/assets-and-qa.md)。一次只生成或选用一个角色动作、一个独立道具；不能用多人拼图代替可剪辑素材。
+4. **Remotion 剪辑**：阅读[分镜语法](references/storyboard-grammar.md)和[素材与验收](references/assets-and-qa.md)。背景保持稳定，前景必须按台词而非统一转场预设出现。
+5. **渲染前检查**：完整渲染前使用[素材与验收](references/assets-and-qa.md)中的清单。时序或素材有实质变动时，先做短预览。
 
-## Non-negotiable visual rules
+## 必守的视觉规则
 
-- Use a stable world background when the user requests it; it sits behind the story at reduced prominence. A door, shop, road, stair, sign, rail, or other spoken object is a foreground asset, not a permanent decoration.
-- Count **information groups**, not PNG files. A character with a built-in hand-held item is one group. Independent people, objects, or mechanisms are separate groups.
-- One group is centered. Two groups form a compact, centered pair. Three groups use left / center / right. All peer subjects share one visual baseline and must retain real alpha-boundary spacing.
-- Plan all final slots before the first group enters. A left subject begins near the left slot; it never first appears in the centre and then moves aside for a later subject.
-- Introduce foreground in the exact order the narration mentions it. Do not pre-load a later character, number, label, or result.
-- Use short, readable, local entrances. Do not send left-slot items across from the right, cross over another subject, globally fade every scene, or add motion simply to make a static image move.
-- Normal frames communicate through role actions and props. Text pages are rare, use the narration's exact key sentence, and retain the established background instead of cutting to an unrelated title card.
-- Do not repeat a role pose as the main visual in different semantic units unless the user explicitly accepts the reuse.
+- 用户要求统一背景时，背景只负责世界观并降低存在感。门、商店、道路、阶梯、路牌、轨道等只要有台词归属，就必须是前景元素，不能作为永久装饰。
+- 按**信息组**而非 PNG 数量计数。角色与其内置手持物是一组；独立的人、物或机制是独立组。
+- 一组居中；两组围绕中心紧凑成对；三组使用左/中/右。平级主体共用视觉基线，且 Alpha 可见边界必须留有间距。
+- 第一个组入场前就要规划所有最终槽位。左侧主体直接在左槽附近出现，不能先居中、再为后续主体让位。
+- 前景严格按旁白的提及顺序出现。人物、数字、标签和结果都不能提前预置。
+- 入场短、可读、且只在最终槽位附近发生。禁止左槽从右侧横穿、穿过其他主体、每镜全局淡入，或为了“有动效”而强行移动静态素材。
+- 常规画面用角色动作和道具传达信息。文字页很少出现，必须使用口播原句中的金句，并保留现有背景，不能切入无关标题卡。
+- 除非用户明确允许，角色同一姿态不能跨不同语义单元反复作为主视觉。
 
-## Deliverables
+## 交付物
 
-Use the templates in `templates/` when producing files. Preserve the user's established table fields when they already have a production template.
+产出文件时使用 `templates/` 中的模板；若用户已有生产模板，则保留其字段。
 
-- `script.md` — titles, narration, factual notes.
-- `storyboard.md` — timing, narration mapping, information groups, final slots, assets, and entrance order.
-- `asset-manifest.json` — source / generated asset inventory, ownership, alpha QA, and allowed timeline usage.
+- `script.md`：标题、口播与事实备注。
+- `storyboard.md`：时间、台词映射、信息组、最终槽位、资产和入场顺序。
+- `asset-manifest.json`：素材来源/生成记录、权利说明、Alpha 验收与允许使用的时间线单元。
 
-Use `scripts/validate_asset_manifest.py` before a final render when an asset manifest is available. It catches reused role poses and basic asset/slot declaration mistakes; it does not replace visual alpha-boundary and timing review.
+有资产清单时，在完整渲染前运行 `scripts/validate_asset_manifest.py`。它能发现角色姿态复用和基础资产/槽位声明错误，但不能替代 Alpha 边缘和时序的人眼检查。

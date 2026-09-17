@@ -12,7 +12,7 @@
       "semantic_unit": "01",
       "alpha_checked": false,
       "allowed_units": ["01"],
-      "notes": "One character, one readable action, cropped to alpha bounds."
+      "notes": "一个角色、一个可读动作，已按 Alpha 可见边界裁切。"
     }
   ],
   "units": [

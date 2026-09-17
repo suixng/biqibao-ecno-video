@@ -1,4 +1,4 @@
-# Bikini Bottom Econ Video Skill
+# 比奇堡财经视频 Skill
 
 把财经、商业、职场和消费选题制作成“角色困境 → 机制解释 → 现实映射”的横版口播动画工作流。
 
@@ -14,7 +14,7 @@
 
 ## 安装
 
-将整个仓库作为一个 Codex skill 文件夹安装到本机 skills 目录：
+将整个仓库作为一个 Codex Skill 文件夹安装到本机 skills 目录：
 
 ```bash
 git clone https://github.com/<your-account>/bikini-bottom-econ-video-skill.git
@@ -56,7 +56,7 @@ cp -R bikini-bottom-econ-video-skill ~/.codex/skills/
 ```bash
 git init
 git add .
-git commit -m "Initial open-source skill"
+git commit -m "初始化开源 Skill"
 git branch -M main
 git remote add origin https://github.com/<your-account>/bikini-bottom-econ-video-skill.git
 git push -u origin main
