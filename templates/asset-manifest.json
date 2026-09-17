@@ -1,0 +1,30 @@
+{
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "background": "BG00"
+  },
+  "assets": [
+    {
+      "id": "R01",
+      "kind": "role",
+      "semantic_unit": "01",
+      "alpha_checked": false,
+      "allowed_units": ["01"],
+      "notes": "One character, one readable action, cropped to alpha bounds."
+    }
+  ],
+  "units": [
+    {
+      "id": "01",
+      "groups": [
+        {
+          "id": "subject",
+          "slot": "center",
+          "asset_ids": ["R01"]
+        }
+      ]
+    }
+  ]
+}
