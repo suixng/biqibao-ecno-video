@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/12a22e24-b946-43bb-8d16-f896016ef7a7
+
 # 比奇堡财经视频 Skill
 
 把抽象的财经、商业、消费与职场话题，做成观众听得懂、画面跟得上的中文叙事动画。
