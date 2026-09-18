@@ -11,8 +11,16 @@
       "kind": "role",
       "semantic_unit": "01",
       "alpha_checked": false,
-      "allowed_units": ["01"],
-      "notes": "一个角色、一个可读动作，已按 Alpha 可见边界裁切。"
+      "allowed_units": [
+        "01"
+      ],
+      "notes": "记录实际角色动作、语义用途及透明边界检查结果。",
+      "source": "",
+      "generation_notes": "",
+      "rights_notes": "",
+      "alpha_bbox": null,
+      "reuse_authorized": false,
+      "reuse_reason": ""
     }
   ],
   "units": [
@@ -22,7 +30,9 @@
         {
           "id": "subject",
           "slot": "center",
-          "asset_ids": ["R01"]
+          "asset_ids": [
+            "R01"
+          ]
         }
       ]
     }

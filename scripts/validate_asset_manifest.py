@@ -40,10 +40,19 @@ def main() -> None:
                 if asset.get("kind") == "role":
                     role_uses.setdefault(asset_id, []).append(unit["id"])
 
-    reused = {asset_id: units for asset_id, units in role_uses.items() if len(set(units)) > 1}
+    reused = {
+        asset_id: units
+        for asset_id, units in role_uses.items()
+        if len(set(units)) > 1
+        and not (
+            assets[asset_id].get("reuse_authorized") is True
+            and isinstance(assets[asset_id].get("reuse_reason"), str)
+            and assets[asset_id]["reuse_reason"].strip()
+        )
+    }
     if reused:
         detail = ", ".join(f"{asset_id}: {sorted(set(units))}" for asset_id, units in reused.items())
-        fail(f"角色姿态不得跨语义单元复用：{detail}")
+        fail(f"角色姿态跨语义单元复用但未记录用户授权：{detail}")
     print("素材清单声明检查通过。")
 
 
